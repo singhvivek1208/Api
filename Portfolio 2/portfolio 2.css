@@ -1,15 +1,14 @@
 *{
 	margin: 0;
 	padding: 0;
-	text-decoration: none;
+	text-decoration: none;	
+
 
 }
 body,html{
 	scroll-behavior: smooth;
 }
-body{
-	/* overflow: hidden; */
-}
+
 body,html{
 	scroll-behavior: smooth;
 }
