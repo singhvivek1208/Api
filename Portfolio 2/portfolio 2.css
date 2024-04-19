@@ -37,3 +37,38 @@ nav{
 	gap:2rem;
 	font-weight: bold;
 }
+.one{
+	padding-top: 18rem;
+	padding-left: 9rem;
+	color: blue;
+	font-weight: 1px;
+}
+.sec{
+	font-size: 90px;
+	padding-left: 8rem;
+	padding-top: 1rem;
+}
+.thr{
+	padding-left: 9rem;
+	padding-top: 2rem;
+	font-size: 22px;
+	color: gray;
+	font-family: unset;
+
+}
+.buttons{
+	padding-left: 9rem;
+}
+.buttons button{
+	background: transparent;
+	padding: 1rem 3rem;
+	border-radius: rem;
+	margin-top: 2rem;
+	border: none;
+	outline: none;
+}
+.buttons button:first-child{
+	background: blue;
+	box-shadow: 0 0 10px 0 #000;
+	color: white;
+}
