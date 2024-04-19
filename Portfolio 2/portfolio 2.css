@@ -2,40 +2,53 @@
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
-	color: black;
+
 }
 body,html{
 	scroll-behavior: smooth;
 }
-nav{
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 1rem 5rem;
-
-
+body{
+	/* overflow: hidden; */
 }
-nav ul{
-	display: flex;
-	list-style: none;
-	gap: 2rem;
-	
+body,html{
+	scroll-behavior: smooth;
 }
 header{
 	display: flex;
-	justify-content: space-between;
-	align-content: center;
-	padding: 1rem 5rem;
-	background:skyblue;
-	position: fixed;
-	width: 90%;
-	z-index: 300;
-	font-size: 25px;
+	flex-direction: column;
 }
-nav{
+.head{
 	display: flex;
-	gap:2rem;
-	font-weight: bold;
+	justify-content: space-between;
+	background-color: rgba(33, 32, 32, 0.992);
+    color: #fff;
+	padding: 0.5rem 1rem;
+}
+.head Button{
+	border-radius: 0.5rem;
+	padding: 0.8rem 1.5rem;
+	color: white;
+	background-color: green;
+	outline: black;
+}
+.middle{
+    display: flex;
+	justify-content: space-between;
+	background-color: black;
+	color: #fff;
+	padding: 0.5rem 8rem;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem 8rem;
+	background-color: rgb(134, 205, 233);
+}
+nav ul{
+	display: flex;
+	gap:2.5rem;
+	list-style: none;
+	font-size: 20px;
 }
 .one{
 	padding-top: 18rem;
