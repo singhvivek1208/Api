@@ -73,8 +73,8 @@ nav ul{
 }
 .buttons button{
 	background: transparent;
-	padding: 1rem 3rem;
-	border-radius: rem;
+	padding: 1.8rem 5rem;
+	border-radius: 1rem;
 	margin-top: 2rem;
 	border: none;
 	outline: none;
@@ -83,4 +83,66 @@ nav ul{
 	background: blue;
 	box-shadow: 0 0 10px 0 #000;
 	color: white;
+}
+
+.scroll{
+	font-size: 55px;
+	padding: 1rem;
+	margin-top: 2rem;
+	color: whitesmoke;
+	word-spacing: 1rem;
+	overflow: hidden;
+}
+.contain{
+	padding-left: 45rem;
+	padding-top: 9rem;
+}
+.for{
+	color: blue;
+	font-weight: 1px;
+	font-size: 25px;
+}
+.fif{
+	font-size: 55px;
+	padding-top: 1rem;
+}
+.six{
+	color: grey;
+	padding-top: 2rem;
+	font-size: 22px;
+}
+.contain3{
+	display: flex;
+	justify-content: space-between;
+	padding-right: 10rem;
+	padding-left: 5rem;
+	padding-top: 4rem;
+}
+.sev{
+	font-size: 30px;
+}
+.egt{
+	color: grey;
+	font-size: 18px;
+	padding-top: 0.5rem;
+}
+.buttons1 button{
+	background: transparent;
+	padding: 1.8rem 5rem;
+	border-radius: 1rem;
+	margin-top: 4rem;
+	border: none;
+	outline: none;
+}
+.buttons1 button:first-child{
+	background: blue;
+	box-shadow: 0 0 10px 0 #000;
+}
+.nin{
+	text-align: center;
+	padding-top: 8rem;
+}
+.scroller{
+	display: flex;
+	word-spacing: 3rem;
 }
