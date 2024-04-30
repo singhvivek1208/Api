@@ -384,3 +384,44 @@ padding-bottom:0.5rem;
 	.best_price h1{
 		font-size: 4rem;
 	}
+	.boxes{
+		display: flex;
+		padding: 5rem 10rem;
+		gap: 2rem;
+	}
+	.boxes1{
+		width: 300px;
+		height: 400px;
+		background-color: rgb(223, 199, 199);;
+		padding: 5rem;
+		border-radius: 2rem;
+
+	}
+	.boxes2{
+		width: 300px;
+		height: 400px;
+		background-color:rgb(169, 169, 236) ;
+		padding: 5rem;
+		border-radius: 2rem;
+
+	}
+	.boxes3{
+		width: 300px;
+		height: 400px;
+		background-color:rgb(223, 199, 199);;
+		padding: 5rem;
+		border-radius: 2rem;
+	}
+    .boxes h3 {
+		padding-bottom: 5rem;
+		color: rgb(85, 82, 82);
+	}
+	.boxes ul li{
+		padding-top: 1rem ;
+		color: rgb(85, 82, 82);
+
+	}
+
+
+	
+	
