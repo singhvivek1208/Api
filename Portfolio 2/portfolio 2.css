@@ -158,6 +158,7 @@ nav ul{
 }
 .Services{
 	padding: 5rem 5rem;
+	display: flex;
 }
 .it{
 	color: blue;
@@ -255,7 +256,6 @@ padding-bottom:0.5rem;
 	display: flex;
 	width: 80%;
 	height: 70vh;
-	/* padding: 2rem 2rem; */
 	background: rgb(175, 197, 206);
 	margin: 5rem 10rem;
   }
@@ -302,7 +302,6 @@ padding-bottom:0.5rem;
   }
 
   .animation{
-	/* margin-top: 1rem; */
 	width: 200%;
 	background-color: #3f3ff0;
 	text-align: center;
@@ -390,37 +389,218 @@ padding-bottom:0.5rem;
 		gap: 2rem;
 	}
 	.boxes1{
-		width: 300px;
-		height: 400px;
-		background-color: rgb(223, 199, 199);;
+		width: 400px;
+		height: 600px;
+		background-color: rgb(255, 251, 251);;
 		padding: 5rem;
 		border-radius: 2rem;
 
 	}
 	.boxes2{
-		width: 300px;
-		height: 400px;
-		background-color:rgb(169, 169, 236) ;
+		width: 400px;
+		height: 600px;
+		background-color:rgb(43, 43, 255) ;
 		padding: 5rem;
 		border-radius: 2rem;
 
 	}
 	.boxes3{
-		width: 300px;
-		height: 400px;
-		background-color:rgb(223, 199, 199);;
+		width: 400px;
+		height: 600px;
+		background-color:rgb(255, 251, 251);;
 		padding: 5rem;
 		border-radius: 2rem;
 	}
     .boxes h3 {
-		padding-bottom: 5rem;
-		color: rgb(85, 82, 82);
+		padding-bottom: 1.5rem;
+		color: rgb(116, 114, 114);
 	}
 	.boxes ul li{
 		padding-top: 1rem ;
-		color: rgb(85, 82, 82);
+		color: black;
+       font-size: 1.5rem;
+	}
+	.boxes2 h3{
+		color: white;
+	}
+	.boxes2 ul li{
+		color: white;
+	}
+	.boxes h1{
+		font-size: 3.5rem;
+	}
+	.boxes h3{
+		font-size: 1.5rem;
+	}
+	.boxes p{
+	  padding-bottom: 3rem;
+	  font-size:1.3rem ;	
+	}
+	.boxes h4{
+		font-size: 1.3rem;
+		padding-top: 2.5rem;
+		padding-bottom: 3rem;
+	}
+	.boxes2 {
+		color: #fff;
+	}
+	.Button button{
+		padding: 2rem 7rem;
+		background: transparent;
+		border-radius: 3rem;
+		color: blue;
+		font-size: 18px;
+		border-color: blue 	;
+	}
+	.boxes2 button{
+		color: white;
+		border-color: white;
+	}
+	.our h3{
+		font-size: 2rem;
+		color: blue;
+		padding:  10rem 2rem 1rem 60rem;
+	}
+	.our h1{
+		font-size: 4rem;
+		padding:  0rem 2rem 1rem 56rem;
+	}
+	.business button{
+       padding: 2rem 20rem 2rem 1rem;
+		margin:  1rem 1rem 1.5em 58rem;
+        background-color: transparent;
+		font-size: 1.5rem;
+		justify-content: space-between;
+	}
+	.artl h3{
+	  padding: 10rem 55rem 1rem 55rem;
+	  font-size: 1.6rem;
+	  color: blue;
+	}
+	.artl h1{
+		font-size: 3.5rem;
+		padding: 1rem 42rem 3rem 42rem;
+	}
+	.color_box{
+		display: flex;
+		gap: 5rem;
+		padding: 2rem 4rem;
+	}
+	.pink img{
+		width: 100%;
+		height: 30vh;
+	}
+	.pink{
+		width: 550px;
+		padding: 1rem;
+		position: relative;
+	}
+	.pink h1{
+		font-size: 2rem;
+		padding: 2rem 0rem;
+	}
+	.pink p{
+		font-size: 1.4rem;
+		padding-bottom: 2rem;
+	}
+	.pink button{
+		background-color: transparent;
+		border: none;
+		outline: none;
+		font-size: 1.5rem;
+		color: blue;
+		font-family: bold;
+	}
+	.year{
+		position: absolute;
+		z-index: 100;
+	}
+	.rectangle{
+		width: 85%;
+		height: 32vh;
+		background: blue;
+		margin: 1rem 9.5rem 1rem 9.5rem;
+		color: #fff;
+		display: flex;
+		justify-content: space-between;
 
 	}
+	.get button{
+	   padding: 2rem 5rem;
+	   background-color: #fff;
+	   color: black;
+	   font-size: 1.2rem;
+	   border: none;
+	   outline: none;
+	   margin: 6rem 5rem;
+	}
+	.rectangle h1{
+		padding: 5rem 2rem 5rem 42rem;
+		font-size: 3rem;
+	}
+	.foot{
+		background-color: blue;
+		color: #fff;
+		display: flex;
+		justify-content: space-between;
+		font-size: 1.3rem;
+		padding: 2rem 10rem;
+	}
+	.term{
+		display: flex;
+		gap: 2rem;
+	}
+	.icons{
+		font-size: 4rem;
+
+	}
+	.black1{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 8rem;
+		padding: 10rem 8rem;
+		background-color: black;
+		color: white;
+	}
+.black2 h1{
+	font-size: 4.5rem;
+}
+.black2 p{
+	font-size: 1.5rem;
+}
+.black3 h1{
+	font-size: 2rem;
+	padding: 1rem;
+}
+.blacks{
+	display: flex;
+	font-size: 20px;
+}
+.blacks2 h3{
+ padding-top:1rem; 	
+}
+.blacks2 p{
+	padding-top: 0.7rem;
+}
+.blacks img{
+	width: 100px;
+	height: 100px;
+	padding: 1rem;
+}
+.black3 ul li{
+		padding: 1rem;
+		font-size: 25px;
+}
+.black button{
+	background: blue;
+	outline: none;
+	border: none;
+	padding: 2rem 5rem;
+	color: white;
+	font-size: 1.2rem;
+	margin-top: 1rem;
+}
+	
 
 
 	
