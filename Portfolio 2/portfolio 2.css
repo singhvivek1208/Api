@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	text-decoration: none;	
-
+   font-family: Helvetica, Arial,  sans-serif;
 
 }
 body,html{
@@ -42,6 +42,9 @@ header{
 	justify-content: space-between;
 	padding: 1rem 8rem;
 	background-color: rgb(134, 205, 233);
+	position: fixed;
+	width: 90%;
+	z-index: 300;
 }
 nav ul{
 	display: flex;
@@ -84,6 +87,12 @@ nav ul{
 	background: blue;
 	box-shadow: 0 0 10px 0 #000;
 	color: white;
+}
+.best{
+	display: flex;
+}
+.hero{
+	padding-left: 10rem;
 }
 
 .scroll{
@@ -236,8 +245,8 @@ p{
 	position: absolute;
 	z-index: 100;
 	bottom: 2rem;
-	right: 2rem;
-	left: 2rem;
+	right: 1rem;
+	left: 1rem;
 	padding: 3rem;
 	background-color: #fff;
 	color: #000;
@@ -456,30 +465,35 @@ padding-bottom:0.5rem;
 		color: white;
 		border-color: white;
 	}
+	.our{
+		display: flex;
+	}
 	.our h3{
 		font-size: 2rem;
 		color: blue;
-		padding:  10rem 2rem 1rem 60rem;
+		/* padding:  10rem 2rem 1rem 60rem; */
 	}
 	.our h1{
 		font-size: 4rem;
-		padding:  0rem 2rem 1rem 56rem;
+		/* padding:  0rem 2rem 1rem 56rem; */
 	}
 	.business button{
-       padding: 2rem 20rem 2rem 1rem;
-		margin:  1rem 1rem 1.5em 58rem;
+       /* padding: 2rem 20rem 2rem 1rem; */
+		/* margin:  1rem 1rem 1.5em 58rem; */
         background-color: transparent;
 		font-size: 1.5rem;
 		justify-content: space-between;
 	}
 	.artl h3{
-	  padding: 10rem 55rem 1rem 55rem;
+	 text-align: center;
 	  font-size: 1.6rem;
 	  color: blue;
+	  padding-top: 5rem;
 	}
 	.artl h1{
 		font-size: 3.5rem;
-		padding: 1rem 42rem 3rem 42rem;
+	 text-align: center;
+        padding-bottom: 5rem;
 	}
 	.color_box{
 		display: flex;
@@ -496,12 +510,13 @@ padding-bottom:0.5rem;
 		position: relative;
 	}
 	.pink h1{
-		font-size: 2rem;
+		font-size: 1.5rem;
 		padding: 2rem 0rem;
 	}
 	.pink p{
-		font-size: 1.4rem;
+		font-size: 1.3rem;
 		padding-bottom: 2rem;
+	
 	}
 	.pink button{
 		background-color: transparent;
@@ -519,14 +534,14 @@ padding-bottom:0.5rem;
 		width: 85%;
 		height: 32vh;
 		background: blue;
-		margin: 1rem 9.5rem 1rem 9.5rem;
+		margin: 20rem 9.5rem 0rem 9.5rem;
 		color: #fff;
 		display: flex;
 		justify-content: space-between;
 
 	}
 	.get button{
-	   padding: 2rem 5rem;
+	   padding: 2rem 4rem;
 	   background-color: #fff;
 	   color: black;
 	   font-size: 1.2rem;
@@ -535,8 +550,14 @@ padding-bottom:0.5rem;
 	   margin: 6rem 5rem;
 	}
 	.rectangle h1{
-		padding: 5rem 2rem 5rem 42rem;
+	   padding-top: 5rem;
+	   padding-left: 10rem;
 		font-size: 3rem;
+	}
+	.laptop img{
+	   height: 50vh;
+	   transform: translate( 130px, -158px  );
+
 	}
 	.foot{
 		background-color: blue;
